@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <otrs_config version="1.0" init="Application">
-    <ConfigItem Name="Frontend::Output::FilterElementPost###Znuny4OTRSCustomPriorityColor" Required="0" Valid="1">
-        <Description Translatable="1">Output filter to add CSS for ticket priorities.</Description>
+    <ConfigItem Name="Frontend::Output::FilterElementPost###OutputFilterPostZnuny4OTRSCustomPriorityColor" Required="0" Valid="1">
+        <Description Translatable="1">This configuration registers an OutputFilter module that adds CSS for ticket priorities.</Description>
         <Group>Znuny4OTRS-CustomPriorityColor</Group>
         <SubGroup>Core::Web</SubGroup>
             <Setting>
                 <Hash>
-                    <Item Key="Module">Kernel::Output::HTML::FilterElementPost::CustomPriorityColor</Item>
+                    <Item Key="Module">Kernel::Output::HTML::OutputFilterPostZnuny4OTRSCustomPriorityColor</Item>
                     <Item Key="Templates">
                         <Hash>
                             <Item Key="Header">1</Item>
