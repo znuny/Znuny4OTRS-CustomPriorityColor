@@ -1,5 +1,5 @@
 # --
-# Copyright (C) 2012-2016 Znuny GmbH, http://znuny.com/
+# Copyright (C) 2012-2017 Znuny GmbH, http://znuny.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
 # the enclosed file COPYING for license information (AGPL). If you
@@ -51,7 +51,7 @@ sub Run {
         Valid => 1,
     );
 
-    return if !IsHashRefWithData( \%PriorityList );
+    return if !%PriorityList;
     my %PriorityListReverse = reverse %PriorityList;
 
     my $PriorityID;
@@ -59,12 +59,15 @@ sub Run {
     for my $PriorityName ( sort keys %PriorityListReverse ) {
 
         if ( !defined( $PriorityNamesToColor->{$PriorityName} ) ) {
+
             $LogObject->Log(
                 Priority => 'error',
                 Message  => "Can't set new color for priority $PriorityName",
             );
             next PRIORITY;
+
         }
+
         $PriorityNamesToColor->{$PriorityName} =~ s{\#(\d{3,6})}{$1}xms;
         $PriorityIDCSS .= ".PriorityID-$PriorityListReverse{$PriorityName} {
             background-color:#$PriorityNamesToColor->{$PriorityName} !important;
