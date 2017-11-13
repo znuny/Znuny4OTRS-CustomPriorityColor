@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<otrs_config version="1.0" init="Application">
-    <ConfigItem Name="Frontend::Output::FilterElementPost###Znuny4OTRSCustomPriorityColor" Required="0" Valid="1">
+<otrs_config version="2.0" init="Application">
+    <Setting Name="Frontend::Output::FilterElementPost###Znuny4OTRSCustomPriorityColor" Required="0" Valid="1">
         <Description Translatable="1">Output filter to add CSS for ticket priorities.</Description>
-        <Group>Znuny4OTRS-CustomPriorityColor</Group>
-        <SubGroup>Core::Web</SubGroup>
-            <Setting>
+        <Navigation>Frontend::Base::OutputFilter</Navigation>
+            <Value>
                 <Hash>
                     <Item Key="Module">Kernel::Output::HTML::FilterElementPost::CustomPriorityColor</Item>
                     <Item Key="Templates">
@@ -13,13 +12,12 @@
                         </Hash>
                     </Item>
                 </Hash>
-            </Setting>
-    </ConfigItem>
-    <ConfigItem Name="CustomPriorityColor::PriorityColor" Required="0" Valid="1">
+            </Value>
+    </Setting>
+    <Setting Name="CustomPriorityColor::PriorityColor" Required="0" Valid="1">
         <Description Translatable="1">Mapping of ticket priority name to background color.</Description>
-        <Group>Znuny4OTRS-CustomPriorityColor</Group>
-        <SubGroup>Core</SubGroup>
-        <Setting>
+        <Navigation>Core::Znuny4OTRS::CustomPriorityColor</Navigation>
+        <Value>
             <Hash>
                 <Item Key="1 very low">aabbff</Item>
                 <Item Key="2 low">aaddff</Item>
@@ -27,6 +25,6 @@
                 <Item Key="4 high">ffcccc</Item>
                 <Item Key="5 very high">ffaaaa</Item>
             </Hash>
-        </Setting>
-    </ConfigItem>
+        </Value>
+    </Setting>
 </otrs_config>
