@@ -3,16 +3,16 @@
     <Name>Znuny4OTRS-CustomPriorityColor</Name>
     <Version>1.2.0</Version>
     <ChangeLog Version="1.2.0" Date="2016-03-04 14:46:24 UTC">Initial Release.</ChangeLog>
-    <Framework>5.0.x</Framework>
-    <PackageRequired Version="5.0.28">Znuny4OTRS-Repo</PackageRequired>
+    <Framework>6.0.x</Framework>
+    <PackageRequired Version="6.0.3">Znuny4OTRS-Repo</PackageRequired>
     <Vendor>Znuny GmbH</Vendor>
     <URL>http://znuny.com/</URL>
     <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
     <Description Lang="en">This package contains the functionality to change ticket priority colors via sysconfig.</Description>
     <Description Lang="de">Dieses Paket enthält die Funktionalität um Farben von Ticketprioritäten mittels SysConfig zu ändern.</Description>
     <Filelist>
-        <File Permission="644" Location="Kernel/Config/Files/Znuny4OTRSCustomPriorityColor.xml"/>
-        <File Permission="644" Location="Kernel/Language/de_Znuny4OTRSCustomPriorityColor.pm"/>
-        <File Permission="644" Location="Kernel/Output/HTML/FilterElementPost/CustomPriorityColor.pm"/>
+        <File Permission="660" Location="Kernel/Config/Files/XML/Znuny4OTRSCustomPriorityColor.xml"/>
+        <File Permission="660" Location="Kernel/Language/de_Znuny4OTRSCustomPriorityColor.pm"/>
+        <File Permission="660" Location="Kernel/Output/HTML/FilterElementPost/CustomPriorityColor.pm"/>
     </Filelist>
 </otrs_package>
