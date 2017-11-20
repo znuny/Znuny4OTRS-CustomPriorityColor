@@ -6,7 +6,7 @@ With this extension you will be able to change ticket priority colors via SysCon
 
 **Prerequisites**
 
-- OTRS 5
+- OTRS 6
 
 - Znuny4OTRS-Repo
 
