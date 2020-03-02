@@ -1,23 +1,4 @@
-# Znuny4OTRS-CustomPriorityColor
+# Funktionalität
 
-Im OTRS Standard ist es nicht möglich die Farben der Priorität ohne die mühevolle Anpassung der CSS zu ändern.
+Diese Paket erlaubt es die Farben der Prioritäten über die System-Konfiguration zu ändern. Die sonst übliche Anpassung von CSS-Dateien ist dazu nicht notwendig.
 
-Dieses Paket enthält die Funktionalität Farben von Ticketprioritäten mittels SysConfig zu ändern.
-
-## SysConfig
-Unter CustomPriorityColor::PriorityColor können die jeweiligen Farben der 5 Prioritäten geändert werden.
-Dazu werden die sechsstelligen bekannten Hexcodes verwendet.
-
-`
-  #123456
-`
-
-1 => very low
-
-2 => low
-
-3 => normal
-
-4 => high
-
-5 => very high.
