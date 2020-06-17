@@ -19,11 +19,11 @@
         <Navigation>Core::Znuny4OTRS::CustomPriorityColor</Navigation>
         <Value>
             <Hash>
-                <Item Key="1 very low">aabbff</Item>
-                <Item Key="2 low">aaddff</Item>
-                <Item Key="3 normal">cdcdcd</Item>
-                <Item Key="4 high">ffcccc</Item>
-                <Item Key="5 very high">ffaaaa</Item>
+                <Item Key="1 very low">#aabbff</Item>
+                <Item Key="2 low">#aaddff</Item>
+                <Item Key="3 normal">#cdcdcd</Item>
+                <Item Key="4 high">#ffcccc</Item>
+                <Item Key="5 very high">#ffaaaa</Item>
             </Hash>
         </Value>
     </Setting>

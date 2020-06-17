@@ -65,12 +65,10 @@ sub Run {
                 Message  => "Can't set new color for priority $PriorityName",
             );
             next PRIORITY;
-
         }
 
-        $PriorityNamesToColor->{$PriorityName} =~ s{\#(\d{3,6})}{$1}xms;
         $PriorityIDCSS .= ".PriorityID-$PriorityListReverse{$PriorityName} {
-            background-color:#$PriorityNamesToColor->{$PriorityName} !important;
+            background-color: $PriorityNamesToColor->{$PriorityName} !important;
         }
         ";
     }
