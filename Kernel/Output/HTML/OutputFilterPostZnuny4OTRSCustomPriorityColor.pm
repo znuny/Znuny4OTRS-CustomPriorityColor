@@ -1,6 +1,6 @@
 # --
 # Kernel/Output/HTML/OutputFilterPostZnuny4OTRSCustomPriorityColor.pm - adds CSS for ticket priorities
-# Copyright (C) 2012-2016 Znuny GmbH, http://znuny.com/
+# Copyright (C) 2012-2022 Znuny GmbH, http://znuny.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
 # the enclosed file COPYING for license information (AGPL). If you
@@ -52,7 +52,7 @@ sub Run {
         Valid => 1,
     );
 
-    return if !IsHashRefWithData( \%PriorityList );
+    return if !%PriorityList;
     my %PriorityListReverse = reverse %PriorityList;
 
     my $PriorityID;
