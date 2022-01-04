@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <otrs_package version="1.0">
-    <Name>Znuny4OTRS-CustomPriorityColor</Name>
+    <Name>Znuny-CustomPriorityColor</Name>
     <Version>6.0.5</Version>
     <ChangeLog Version="6.0.5" Date="2021-02-12 17:42:02 +0100">Happy new year. Tidied code.</ChangeLog>
     <ChangeLog Version="6.0.4" Date="2020-06-17 10:13:09 +0200">SysConfig Refactoring CustomPriorityColor::PriorityColor.</ChangeLog>
@@ -8,33 +8,33 @@
     <ChangeLog Version="6.0.2" Date="2018-10-30 19:21:24 +0100">Tidied code.</ChangeLog>
     <ChangeLog Version="6.0.1" Date="2017-11-13 16:27:17 +0100">Initial Release OTRS6.</ChangeLog>
     <ChangeLog Version="1.2.0" Date="2016-03-04 14:46:24 UTC">Initial Release.</ChangeLog>
-    <Framework>6.0.x</Framework>
-    <PackageRequired Version="6.0.71">Znuny4OTRS-Repo</PackageRequired>
+    <Framework>6.1.x</Framework>
     <Vendor>Znuny GmbH</Vendor>
     <URL>http://znuny.com/</URL>
     <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
     <Description Lang="en">This package contains the functionality to change ticket priority colors via sysconfig.</Description>
     <Description Lang="de">Dieses Paket enthält die Funktionalität um Farben von Ticketprioritäten mittels SysConfig zu ändern.</Description>
     <Filelist>
-        <File Permission="660" Location="Kernel/Config/Files/XML/Znuny4OTRSCustomPriorityColor.xml"/>
-        <File Permission="660" Location="Kernel/Language/de_Znuny4OTRSCustomPriorityColor.pm"/>
+        <File Permission="660" Location="Kernel/Config/Files/XML/ZnunyCustomPriorityColor.xml"/>
+        <File Permission="660" Location="Kernel/Language/de_ZnunyCustomPriorityColor.pm"/>
         <File Permission="660" Location="Kernel/Output/HTML/FilterElementPost/CustomPriorityColor.pm"/>
-        <File Permission="660" Location="scripts/test/var/packagesetup/Znuny4OTRSCustomPriorityColor.t"/>
-        <File Permission="660" Location="var/packagesetup/Znuny4OTRSCustomPriorityColor.pm"/>
+        <File Permission="660" Location="scripts/test/var/packagesetup/ZnunyCustomPriorityColor.t"/>
+        <File Permission="660" Location="var/packagesetup/ZnunyCustomPriorityColor.pm"/>
     </Filelist>
     <CodeReinstall Type="post"><![CDATA[
-        $Kernel::OM->Get('var::packagesetup::Znuny4OTRSCustomPriorityColor')->CodeReinstall();
+        $Kernel::OM->Get('var::packagesetup::ZnunyCustomPriorityColor')->CodeReinstall();
     ]]></CodeReinstall>
     <CodeInstall Type="post"><![CDATA[
-        $Kernel::OM->Get('var::packagesetup::Znuny4OTRSCustomPriorityColor')->CodeInstall();
+        $Kernel::OM->Get('var::packagesetup::ZnunyCustomPriorityColor')->CodeInstall();
     ]]></CodeInstall>
     <CodeUninstall Type="pre"><![CDATA[
-        $Kernel::OM->Get('var::packagesetup::Znuny4OTRSCustomPriorityColor')->CodeUninstall();
+        $Kernel::OM->Get('var::packagesetup::ZnunyCustomPriorityColor')->CodeUninstall();
     ]]></CodeUninstall>
     <CodeUpgrade Type="post"><![CDATA[
-        $Kernel::OM->Get('var::packagesetup::Znuny4OTRSCustomPriorityColor')->CodeUpgrade();
+        $Kernel::OM->Get('var::packagesetup::ZnunyCustomPriorityColor')->CodeUpgrade();
     ]]></CodeUpgrade>
     <CodeUpgrade Type="post" Version="6.0.3"><![CDATA[
-        $Kernel::OM->Get('var::packagesetup::Znuny4OTRSCustomPriorityColor')->CodeUpgradeForLowerThan603();
+        $Kernel::OM->Get('var::packagesetup::ZnunyCustomPriorityColor')->CodeUpgradeForLowerThan603();
     ]]></CodeUpgrade>
+    <PackageMerge Name="Znuny4OTRS-CustomPriorityColor" TargetVersion="6.0.5"></PackageMerge>
 </otrs_package>
