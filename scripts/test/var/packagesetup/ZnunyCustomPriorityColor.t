@@ -20,7 +20,7 @@ $Kernel::OM->ObjectParamAdd(
     },
 );
 
-my $PackageSetupObject = $Kernel::OM->Get('var::packagesetup::Znuny4OTRSCustomPriorityColor');
+my $PackageSetupObject = $Kernel::OM->Get('var::packagesetup::ZnunyCustomPriorityColor');
 my $ConfigObject       = $Kernel::OM->Get('Kernel::Config');
 my $SysConfigObject    = $Kernel::OM->Get('Kernel::System::SysConfig');
 

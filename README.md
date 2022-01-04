@@ -1,7 +1,7 @@
 ![Znuny logo](https://www.znuny.com/assets/images/logo_small.png)
 
 
-![Build status](https://badge.proxy.znuny.com/Znuny4OTRS-CustomPriorityColor/master)
+![Build status](https://badge.proxy.znuny.com/Znuny4OTRS-CustomPriorityColor/rel-6_1)
 
 CustomPriorityColor
 =================
@@ -10,12 +10,11 @@ Change the colors of the priorities via settings in the System Configuration. No
 
 **Prerequisites**
 
-- OTRS 6
-- [Znuny4OTRS-Repo](https://www.znuny.com/add-ons/znuny4otrs-repository)
+- Znuny 6.1
 
 **Installation**
 
-Download the [package](https://addons.znuny.com/api/addon_repos/public/1079/latest) and install it via admin interface -> package manager or use [Znuny4OTRS-Repo](https://www.znuny.com/add-ons/znuny4otrs-repository).
+Download the [package](https://addons.znuny.com/api/addon_repos/public/2112/latest) and install it via admin interface -> package manager.
 
 **Configuration**
 
@@ -23,11 +22,11 @@ No further configuration required.
 
 **Download**
 
-Download the [latest version](https://addons.znuny.com/api/addon_repos/public/1079/latest).
+Download the [latest version](https://addons.znuny.com/api/addon_repos/public/2112/latest).
 
-**Commercial Support**
+**Professional Support**
 
-For this add-on and for OTRS in general visit [www.znuny.com](https://www.znuny.com). Looking forward to hear from you!
+For this add-on and for Znuny in general visit [www.znuny.com](https://www.znuny.com). Looking forward to hear from you!
 
 Enjoy!
 
