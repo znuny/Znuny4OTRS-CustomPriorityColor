@@ -1,4 +1,4 @@
-# Znuny4OTRS-CustomPriorityColor
+# Functionality
 
 In OTRS, it is not possible to change the colors of the priority without the laborious adaptation of the CSS.
 
