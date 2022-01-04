@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <otrs_package version="1.0">
     <Name>Znuny-CustomPriorityColor</Name>
-    <Version>6.0.5</Version>
+    <Version>6.2.1</Version>
+    <ChangeLog Version="6.2.1" Date="2022-01-04 15:31:30 +0100">Ported to OTRS 6.2.</ChangeLog>
     <ChangeLog Version="6.0.5" Date="2021-02-12 17:42:02 +0100">Happy new year. Tidied code.</ChangeLog>
     <ChangeLog Version="6.0.4" Date="2020-06-17 10:13:09 +0200">SysConfig Refactoring CustomPriorityColor::PriorityColor.</ChangeLog>
     <ChangeLog Version="6.0.3" Date="2020-04-07 17:57:21 +0200">Tidied code, improved documentation and README.</ChangeLog>
@@ -36,5 +37,5 @@
     <CodeUpgrade Type="post" Version="6.0.3"><![CDATA[
         $Kernel::OM->Get('var::packagesetup::ZnunyCustomPriorityColor')->CodeUpgradeForLowerThan603();
     ]]></CodeUpgrade>
-    <PackageMerge Name="Znuny4OTRS-CustomPriorityColor" TargetVersion="6.0.5"></PackageMerge>
+    <PackageMerge Name="Znuny4OTRS-CustomPriorityColor" TargetVersion="6.0.5"/>
 </otrs_package>
