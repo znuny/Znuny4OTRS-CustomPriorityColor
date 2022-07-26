@@ -10,7 +10,7 @@
     <ChangeLog Version="6.0.2" Date="2018-10-30 19:21:24 +0100">Tidied code.</ChangeLog>
     <ChangeLog Version="6.0.1" Date="2017-11-13 16:27:17 +0100">Initial Release OTRS6.</ChangeLog>
     <ChangeLog Version="1.2.0" Date="2016-03-04 14:46:24 UTC">Initial Release.</ChangeLog>
-    <Framework>6.3.x</Framework>
+    <Framework>6.4.x</Framework>
     <Vendor>Znuny GmbH</Vendor>
     <URL>http://znuny.com/</URL>
     <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
