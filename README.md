@@ -1,7 +1,7 @@
 ![Znuny logo](https://www.znuny.com/assets/images/logo_small.png)
 
 
-![Build status](https://badge.proxy.znuny.com/Znuny4OTRS-CustomPriorityColor/rel-6_4)
+![Build status](https://badge.proxy.znuny.com/Znuny4OTRS-CustomPriorityColor/rel-6_5)
 
 CustomPriorityColor
 =================
@@ -10,7 +10,7 @@ Change the colors of the priorities via settings in the System Configuration. No
 
 **Prerequisites**
 
-- Znuny 6.4
+- Znuny 6.5
 
 **Installation**
 
