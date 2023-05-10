@@ -9,6 +9,7 @@
                     <Item Key="Templates">
                         <Hash>
                             <Item Key="Header">1</Item>
+                            <Item Key="CustomerHeader">1</Item>
                         </Hash>
                     </Item>
                 </Hash>

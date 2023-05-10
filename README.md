@@ -4,7 +4,7 @@
 ![Build status](https://badge.proxy.znuny.com/Znuny4OTRS-CustomPriorityColor/rel-6_5)
 
 CustomPriorityColor
-=================
+===================
 Change the colors of the priorities via settings in the System Configuration. No CSS changes are required.
 
 
@@ -28,7 +28,6 @@ Download the [latest version](https://addons.znuny.com/api/addon_repos/public/21
 
 For this add-on and for Znuny in general visit [www.znuny.com](https://www.znuny.com). Looking forward to hear from you!
 
-Enjoy!
 
 Your Znuny Team!
 
