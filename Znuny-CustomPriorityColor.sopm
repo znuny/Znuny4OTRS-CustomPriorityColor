@@ -22,6 +22,7 @@
     <Filelist>
         <File Permission="660" Location="Kernel/Config/Files/XML/ZnunyCustomPriorityColor.xml"/>
         <File Permission="660" Location="Kernel/Language/de_ZnunyCustomPriorityColor.pm"/>
+        <File Permission="660" Location="Kernel/Language/hu_ZnunyCustomPriorityColor.pm"/>
         <File Permission="660" Location="Kernel/Output/HTML/FilterElementPost/CustomPriorityColor.pm"/>
         <File Permission="660" Location="scripts/test/var/packagesetup/ZnunyCustomPriorityColor.t"/>
         <File Permission="660" Location="var/packagesetup/ZnunyCustomPriorityColor.pm"/>
