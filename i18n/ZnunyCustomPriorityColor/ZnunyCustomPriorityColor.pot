@@ -1,0 +1,19 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ZnunyCustomPriorityColor\n"
+"POT-Creation-Date: 2026-11-12 10:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. SysConfig
+msgid "Mapping of ticket priority name to background color."
+msgstr ""
+
+#. SysConfig
+msgid "Output filter to add CSS for ticket priorities."
+msgstr ""

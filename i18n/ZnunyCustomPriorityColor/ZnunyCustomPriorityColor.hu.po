@@ -1,0 +1,27 @@
+# Hungarian translations for Znuny-CustomPriorityColor.
+# Copyright (C) 2026 Znuny GmbH, https://www.znuny.org/
+# This file is distributed under the same license as the Znuny-CustomPriorityColor package.
+#
+# Balázs Úr <balazs@urbalazs.hu>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Znuny-CustomPriorityColor 6.5.2\n"
+"Report-Msgid-Bugs-To: https://github.com/znuny/Znuny4OTRS-CustomPriorityColor/issues\n"
+"POT-Creation-Date: 2026-11-12 10:04+0000\n"
+"PO-Revision-Date: 2026-11-12 11:07+0100\n"
+"Last-Translator: Balázs Úr <balazs@urbalazs.hu>\n"
+"Language-Team: Hungarian\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 26.08.1\n"
+
+#. SysConfig
+msgid "Mapping of ticket priority name to background color."
+msgstr "Jegyprioritás nevének leképezése háttérszínre."
+
+#. SysConfig
+msgid "Output filter to add CSS for ticket priorities."
+msgstr "Kimenetszűrő a jegyprioritásokhoz való CSS hozzáadásához."
